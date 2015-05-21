@@ -1,7 +1,9 @@
 Introduction
+
 OLCA++ is a c++ implementation of online LCA (1), which is an online grammar-based compression algorithm. It takes a text as input, and builds a straight line program consisting of restricted production rules in a context free grammar . Our implementation uses a variable-length dictionary for memory-efficiency (2).
 
 Quick Start
+
 To compile olca++, please type the following commands:
 
 tar -xjvf online-lca-vld-public-X.X.X.tar.bz2
@@ -18,7 +20,8 @@ where ex.txt is an input text and grammar is an output file.
 To recover an original text from a grammar, please type the following command:
 
 ./olca-decompress grammar output.txt
-where output.txt is the recovered text. 
+
+where output.txt included the original text. 
 
 References
 
